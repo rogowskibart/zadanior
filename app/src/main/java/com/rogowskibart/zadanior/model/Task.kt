@@ -1,4 +1,4 @@
-package com.rogowskibart.zadanior.domain
+package com.rogowskibart.zadanior.model
 
 import java.util.*
 
