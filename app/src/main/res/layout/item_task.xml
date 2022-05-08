@@ -22,21 +22,20 @@
             android:layout_marginHorizontal="@dimen/card_margin_horizontal"
             tools:text="Task name" />
 
-        <TextView
-            android:id="@+id/task_priority_tv"
+        <RatingBar
+            android:id="@+id/task_priority_stars"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/task_name_tv"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginHorizontal="@dimen/card_margin_horizontal"
-            tools:text="Task priority" />
+            android:numStars="3"
+            android:stepSize="1"
+            android:isIndicator="true"/>
 
         <TextView
             android:id="@+id/task_percentage_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/task_priority_tv"
+            android:layout_below="@id/task_priority_stars"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_marginHorizontal="@dimen/card_margin_horizontal"

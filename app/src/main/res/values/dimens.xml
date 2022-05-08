@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="margin_horizontal">8dp</dimen>
+    <dimen name="margin_horizontal">16dp</dimen>
     <dimen name="card_margin_horizontal">8dp</dimen>
+    <dimen name="text_view_top_margin">16dp</dimen>
 </resources>

@@ -43,7 +43,7 @@ class TaskAdapter(private val database: AppDatabase) : RecyclerView.Adapter<Task
     }
 
     fun sort() = thread {
-        val data = tasks.sortedBy { it.name }
+        val data = tasks.sortedBy { it.deadline }
         notifyChanges(data)
     }
 
